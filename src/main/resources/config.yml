@@ -1,0 +1,5 @@
+join:
+  msg: "%luckperms_prefix% %player_name% player join server."
+
+quit:
+  msg: "%luckperms_prefix% %player_name% leave server."

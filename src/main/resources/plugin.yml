@@ -1,0 +1,12 @@
+name: AdvancedJoins
+version: '${project.version}'
+main: com.github.kaorystudios.mc.carpodi.advancedjoins.AdvancedJoins
+api-version: 1.16
+depend: [ PlaceholderAPI ]
+authors: [ Carpodi, Happyrogelio7, Kamila21Y, KaoryStudios, KaoryStudiosMC ]
+description: This plugins is made for making custom welcomes/goodbyes in your server/network
+website: https://twitter.com/KaoryStudios
+commands:
+
+  advancedjoinscmd:
+    usage: /<command>
