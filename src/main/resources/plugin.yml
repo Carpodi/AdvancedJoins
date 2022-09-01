@@ -8,5 +8,5 @@ description: This plugins is made for making custom welcomes/goodbyes in your se
 website: https://twitter.com/KaoryStudios
 commands:
 
-  advancedjoinscmd:
+  advancedjoins:
     usage: /<command>

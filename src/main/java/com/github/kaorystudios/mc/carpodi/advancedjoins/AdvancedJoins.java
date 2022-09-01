@@ -26,7 +26,7 @@ public final class AdvancedJoins extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a Thanks for using AdvancedJoins! :D"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&2 Created By: &fCarpodi&7, &fHappyRogelio7&7, &fKamila21Y&7, &fKaoryStudios&7, &fKaoryStudiosMC&7."));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&r "));
-        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a Version Server:&f "+Bukkit.getVersion()));
+        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a Server Version:&f "+Bukkit.getVersion()));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&r "));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&9&l Discord: &fhttps://discord.gg/3EebYUyeUX"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&d&l GitHub: &fhttps://github.com/KaoryStudios"));
@@ -35,7 +35,7 @@ public final class AdvancedJoins extends JavaPlugin {
         this.config = new FileManager(this, "config");
         getServer().getPluginManager().registerEvents(new OnJoin(this), this);
         getServer().getPluginManager().registerEvents(new OnQuit(this), this);
-        getCommand("advancedjoinscmd").setExecutor((CommandExecutor) new AdvancedJoinsCMD(this));
+        getCommand("advancedjoins").setExecutor((CommandExecutor) new AdvancedJoinsCMD(this));
 
 
     }
@@ -48,7 +48,7 @@ public final class AdvancedJoins extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a Thanks for using AdvancedJoins! :D"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&2 Created By: &fCarpodi&7, &fHappyRogelio7&7, &fKamila21Y&7, &fKaoryStudios&7, &fKaoryStudiosMC&7."));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&r "));
-        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a Version Server:&f "+Bukkit.getVersion()));
+        Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&a Server Version:&f "+Bukkit.getVersion()));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&r "));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&9&l Discord: &fhttps://discord.gg/3EebYUyeUX"));
         Bukkit.getConsoleSender().sendMessage(MessageColors.getMsgColor("&d&l GitHub: &fhttps://github.com/KaoryStudios"));

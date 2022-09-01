@@ -1,5 +1,5 @@
 join:
-  msg: "%luckperms_prefix% %player_name% player join server."
+  msg: "[+] %player_name% Joined"
 
 quit:
-  msg: "%luckperms_prefix% %player_name% leave server."
+  msg: "[-] %player_name% Left"
